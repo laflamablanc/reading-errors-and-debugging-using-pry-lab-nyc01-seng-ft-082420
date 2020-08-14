@@ -3,7 +3,7 @@ require 'pry'
 
 def generate_star_date
   rand_num = (rand(100000) + 400000) / 10.0
-  binding.pry
+  puts rand_num
 end
 
 
